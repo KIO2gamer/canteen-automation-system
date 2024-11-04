@@ -11,7 +11,7 @@ def get_database_connection():
         connection = con.connect(
             host="localhost",
             user="root",
-            passwd="Kio23gamer!?...",
+            passwd="<password>", # Replace <password> (keep the double quotes) with the MySQL password that you set up while installing it.
             database="canteen_automation"
         )
         return connection
